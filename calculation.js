@@ -1,5 +1,6 @@
 // TODO: Integrate this into index.html
 // TODO: Test this to see if it produces the desired output
+// Modeled in GoogleSheets here: https://docs.google.com/spreadsheets/d/181ek9j9fsZ3ubR0GQhAxb119Hf_MZDSJVEdKf4fCXiE/edit?usp=sharing
 
 // NyoboltStats - held constant in the code
 const NyoboltStats = {
