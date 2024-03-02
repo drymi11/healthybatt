@@ -1,0 +1,192 @@
+/* iPhone 14 & 15 Pro Max - 1 */
+body {
+  background: #1E283B;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  overflow-x: hidden;
+  position: relative;
+  width: 430px;
+  height: 932px;
+  background: #1E283B;
+}
+
+
+
+position: absolute;
+width: 430px;
+height: 932px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #050506 0%, #050506 20.1%, rgba(50, 50, 50, 0) 50.1%, #7F8285 100%);
+mix-blend-mode: normal;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 316px;
+height: 607px;
+left: 57px;
+top: 218px;
+
+background: #D9D9D9;
+border-radius: 10px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 205px;
+height: 69px;
+left: 112px;
+top: 705px;
+
+background: rgba(0, 152, 217, 0.552941);
+border-radius: 10px;
+
+
+/* Calculate */
+calculate {
+position: absolute;
+width: 196px;
+height: 48px;
+left: 116.5px;
+top: 720.5px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 35px;
+text-align: center;
+
+color: #050506;
+}
+
+
+
+/* Enter your current operating Information */
+
+position: absolute;
+width: 332px;
+height: 48px;
+left: 49px;
+top: 257px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #050506;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 250px;
+height: 39px;
+left: 96px;
+top: 342px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Average battery temp °C */
+
+position: absolute;
+width: 228px;
+height: 26px;
+left: 102px;
+top: 350px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #888B8F;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 250px;
+height: 39px;
+left: 94px;
+top: 447px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Average Charge Time (Mins) */
+
+position: absolute;
+width: 228px;
+height: 26px;
+left: 103px;
+top: 460px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #888B8F;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 250px;
+height: 39px;
+left: 94px;
+top: 566px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Current Battery Cost */
+
+position: absolute;
+width: 228px;
+height: 26px;
+left: 95px;
+top: 579px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #888B8F;
+
+
+
+/* image 1 */
+
+position: absolute;
+width: 150px;
+height: 49px;
+left: 141px;
+top: 73px;
+
+background: url(image.png);
