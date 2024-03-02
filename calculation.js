@@ -1,3 +1,6 @@
+// TODO: Integrate this into index.html
+// TODO: Test this to see if it produces the desired output
+
 // NyoboltStats - held constant in the code
 const NyoboltStats = {
     TimeInOperation: 500,
@@ -16,7 +19,6 @@ let userTimeInOperation = 300; // Time in operation (minutes) - HARDCODED FOR NO
 let userTotalNumberOfRechargeCycles = 3000; // Number of recharge cycles until viable - HARDCODED FOR NOW AS DUMMY DATA
 let userValueInOperation = 1; // Value in operation (£ / minute) - HARDCODED FOR NOW AS DUMMY DATA
 let userHoursOperation = 24; // Hours of operation in an operating day - HARDCODED FOR NOW AS DUMMY DATA
-
 
 // Calculate cycle length for user vs Nyobolt
 let userCycleLength = cyclelength(userTimeInOperation, userTimeInRecharge);
