@@ -15,6 +15,9 @@ let userValueInOperation = 1; // Value in operation (£ / minute)
 let userTotalBatteries = 300; // Total number of batteries in use
 let userHoursOperation = 24; // Hours of operation in an operating day
 
+let userCycleLength = cyclelength(userTimeInOperation, userTimeInRecharge);
+let nyoCycleLength = cyclelength(NyoboltStats['TimeInOperation'], NyoboltStats['TimeInRecharge']);
+
 let cycleLength = userTimeInOperation / userTimeInRecharge;
 let life = userTimeInRecharge * cycleLength;
 
@@ -32,3 +35,14 @@ let benefitMinLife = round(valueMinLife - costMinLife, 2);
 let totalBenefitMin = benefitMinLife * userTotalBatteries;
 let minsOperatingDay = userHoursOperation * 60;
 let totalBenefitDay = totalBenefitMin * minsOperatingDay;
+
+let finalResult = returnSum(userTotalBenefitDay, nyoboltTotalBenefitDay)
+
+function returnSum(a, b) {
+    return b - a;
+}
+
+function cyclelength(op, recharge) {
+    let cycleLength = (op / recharge);
+    return cycleLength;
+}
