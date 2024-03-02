@@ -47,19 +47,16 @@ body {
 /* Calculate */
 .calculate {
   position: absolute;
-  width: 196px;
-  height: 48px;
-  left: 116.5px;
-  top: 720.5px;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 700;
-  font-size: 29px;
-  line-height: 35px;
-  text-align: center;
   color: #050506;
+ width: 205px;
+  height: 69px;
+  left: 112px;
+  top: 705px;
+  background: rgba(0, 152, 217, 0.552941);
+  border-radius: 10px;
 }
-
 /* Enter your current operating Information */
 .enterDetails {
   position: absolute;
@@ -77,7 +74,7 @@ body {
 }
 
 /* Rectangle 7 */
-.batteryCost {
+.batteryTemp {
   position: absolute;
   width: 250px;
   height: 39px;
@@ -104,7 +101,7 @@ body {
 }
 
 /* Rectangle 5 */
-.results {
+.chargeTime {
   position: absolute;
   width: 250px;
   height: 39px;
