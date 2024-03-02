@@ -1,157 +1,52 @@
 /* iPhone 14 & 15 Pro Max - 1 */
 body {
-  background: #1E283B;
   font-family: 'Montserrat', 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.6;
   color: #fff;
   overflow-x: hidden;
   position: relative;
-  width: 430px;
-  height: 932px;
+  width: 100vw;
+  height: 100vh;
+  background: #1E283B;
+    /* ... */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.inputbox {
+  width: 80%;
+  height: 60vh;
+  position: relative;
+  margin: 0 auto;
+  background: #D9D9D9;
+  border-radius: 10px;
 }
 
 .gradientStyling {
   position: absolute;
-  width: 430px;
-  height: 932px;
+  width: 100vw;
+  height: 100vh;
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, #050506 0%, #050506 20.1%, rgba(50, 50, 50, 0) 50.1%, #7F8285 100%);
   mix-blend-mode: normal;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px; /* Add this line to give the box rounded edges */
 }
 
 /* Rectangle 2 */
 .inputbox {
-  position: absolute;
-  width: 316px;
-  height: 607px;
-  left: 57px;
-  top: 218px;
+  width: 80%; /* Adjust this value as needed */
+  height: 60vh; /* Adjust this value as needed */
   background: #D9D9D9;
   border-radius: 10px;
-}
-
-/* Rectangle 3 */
-.chargeTime {
-  position: absolute;
-  width: 205px;
-  height: 69px;
-  left: 112px;
-  top: 705px;
-  background: rgba(0, 152, 217, 0.552941);
-  border-radius: 10px;
-}
-
-/* Calculate */
-.calculate {
-  position: absolute;
-  font-family: 'Montserrat';
-  font-weight: 700;
-  color: #050506;
- width: 205px;
-  height: 69px;
-  left: 112px;
-  top: 705px;
-  background: rgba(0, 152, 217, 0.552941);
-  border-radius: 10px;
-}
-/* Enter your current operating Information */
-.enterDetails {
-  position: absolute;
-  width: 332px;
-  height: 48px;
-  left: 49px;
-  top: 257px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #050506;
-}
-
-/* Rectangle 7 */
-.batteryTemp {
-  position: absolute;
-  width: 250px;
-  height: 39px;
-  left: 96px;
-  top: 342px;
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-
-/* Average battery temp °C */
-.batteryTempText {
-  position: absolute;
-  width: 228px;
-  height: 26px;
-  left: 102px;
-  top: 350px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #888B8F;
-}
-
-/* Rectangle 5 */
-.chargeTime {
-  position: absolute;
-  width: 250px;
-  height: 39px;
-  left: 94px;
-  top: 447px;
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-
-/* Average Charge Time (Mins) */
-.averageChargeTimeText {
-  position: absolute;
-  width: 228px;
-  height: 26px;
-  left: 103px;
-  top: 460px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #888B8F;
-}
-
-/* Rectangle 6 */
-.currentBatteryCostBox {
-  position: absolute;
-  width: 250px;
-  height: 39px;
-  left: 94px;
-  top: 566px;
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-
-/* Current Battery Cost */
-.CurrentBatteryCostText {
-  position: absolute;
-  width: 228px;
-  height: 26px;
-  left: 95px;
-  top: 579px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #888B8F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* image 1 */
@@ -162,4 +57,147 @@ body {
   left: 141px;
   top: 73px;
   background: url('image.png');
+}
+
+.chargeTime {
+  position: absolute;
+  width: 205px;
+  height: 69px;
+  left: 50%;
+  top: 645px;
+  transform: translateX(-50%);
+  background: rgba(0, 152, 217, 0.552941);
+  border-radius: 10px;
+}
+
+.calculate {
+  position: absolute;
+  width: 196px;
+  height: 48px;
+  left: 50%;
+  top: 660.5px;
+  transform: translateX(-50%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 35px;
+  text-align: center;
+  color: #050506;
+}
+
+.enterDetails {
+  position: absolute;
+  width: 332px;
+  height: 48px;
+  left: 50%;
+  top: 197px;
+  transform: translateX(-50%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #050506;
+}
+
+.batteryCost {
+  position: absolute;
+  width: 250px;
+  height: 39px;
+  left: 50%;
+  top: 282px;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.batteryTempText {
+  position: absolute;
+  width: 228px;
+  height: 26px;
+  left: 50%;
+  top: 290px;
+  transform: translateX(-50%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #888B8F;
+}
+
+.results {
+  position: absolute;
+  width: 250px;
+  height: 39px;
+  left: 50%;
+  top: 387px;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.averageChargeTimeText {
+  position: absolute;
+  width: 228px;
+  height: 26px;
+  left: 50%;
+  top: 400px;
+  transform: translateX(-50%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #888B8F;
+}
+
+.currentBatteryCostBox {
+  position: absolute;
+  width: 250px;
+  height: 39px;
+  left: 50%;
+  top: 506px;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.CurrentBatteryCostText {
+  position: absolute;
+  width: 228px;
+  height: 26px;
+  left: 50%;
+  top: 519px;
+  transform: translateX(-50%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #888B8F;
+}
+
+.calculate {
+  position: absolute;
+  width: 196px;
+  height: 48px;
+  left: 50%;
+  top: 660.5px;
+  transform: translateX(-50%);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 35px;
+  text-align: center;
+  color: #050506;
+  background: none;
+  border: none;
+  outline: none;
 }
