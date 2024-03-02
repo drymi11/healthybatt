@@ -5,9 +5,9 @@
   });
 
   document.querySelector('#calculate-button').addEventListener('click', function() {
-    let timeToRecharge = document.querySelector('#batteryTemp').value;
-    let costToReplaceBattery = document.querySelector('#chargeTime').value;
-    let totalNumberofBatteriesInUse = document.querySelector('#batteryCost').value;
+    let batteryTemp = document.querySelector('#avgTemp').value;
+        let chargeTime = document.querySelector('#chargeTime').value;
+        let batteryCost = document.querySelector('#batteryCost').value;
   
     calculate(batteryTemp, chargeTime, batteryCost); // Pass the input values to the calculate function
   
